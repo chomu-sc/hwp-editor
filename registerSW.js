@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/hwp-editor/sw.js', { scope: '/hwp-editor/' })})}
